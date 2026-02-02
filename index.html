@@ -3486,7 +3486,6 @@ detectCountryFromIP().then(countryCode => {
     const usCountry = countryCodes.find(c => c.country === 'US');
     if (usCountry) updatePhoneCode(usCountry);
 });
-        }
 
         // Initialize country detection after a short delay to ensure DOM is ready
         setTimeout(() => {
@@ -4162,4 +4161,5 @@ detectCountryFromIP().then(countryCode => {
 
 
 </html>
+
 
